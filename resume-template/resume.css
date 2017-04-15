@@ -1,0 +1,149 @@
+.page {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(0,0,0,0.05);
+    font-family: "times new roman";
+    color: #333;
+}
+ul,li,h1,h3,p {
+        margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+h3 {
+    padding-bottom: 5px;
+}
+ul,li {
+    list-style: none;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.infor {
+    position: relative;
+    margin-top: 50px;
+}
+.intro {
+    float: left;
+}
+.photo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.photo>img {
+    border: 1px red solid;
+    border-radius: 100px;
+}
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+    text-align: center;
+}
+.name>h1 {
+    font-size: 45px;
+}
+.name p {
+    font-size: 20px;
+}
+.contacts {
+    /*float: right;*/
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -83px;
+}
+.contacts>h3 {
+    border-bottom: 3px black solid;
+    width: 330px;
+}
+.contacts>ul {
+    padding-top: 10px;
+}
+.contacts span.resume-iconfont {
+    font-size: 20px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+.contacts li {
+    vertical-align: middle;
+        }
+.work {
+    padding-top: 50px;
+}
+.education {
+    padding-top: 20px;
+}
+.more {
+    padding-top: 35px;
+}
+.work>h3,.education>h3,.activities>h3,.skills>h3 {
+    border-bottom: 2px #aaa solid;
+    width: 400px;
+}
+.work>ul,.education>ul,.activities>ul,.skills>ul {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.work li,.education li {
+    border-left: 1px #999 solid;
+}
+.activities li,.skills li {
+    border-left: 1px rgba(0,0,0,0) solid;
+}
+.work li,.education li,.activities li,.skills li {
+    padding-left: 50px;
+    position: relative;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    color: #555;
+}
+.skills li {
+    padding-right: 10px;
+    padding-bottom: 55px;
+    color: #333;
+}
+.work p,.education p,.activities p {
+    padding-top: 10px;
+}
+.point {
+    border: 4px black solid;
+    border-radius: 4px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 8px;
+    left: -4px;
+}
+.work span,.education span {
+    color: rgba(0,0,0,0.35);
+}
+.activities {
+    float: left;
+    width: 400px;
+}
+.skills {
+    float: right;
+    width: 450px;
+}
+.plus:after {
+    width: 16px;
+    height: 16px;
+    border: 1px black solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 4px;
+    left: -8px;
+    content: "+";
+    text-align: center;
+    line-height: 1;
+    color: black;
+    font-weight: 900;
+}
+.skills>ul {
+    float: left;
+}
